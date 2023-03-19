@@ -1,0 +1,96 @@
+/*.cart{
+  background: #414045 ;
+}
+.cart_title{
+  color:white;
+}*/
+.cart_shop {
+    position: fixed;
+    right: 0;
+    top: 1px;
+    bottom: 0;
+    background: white;
+    width: 35%;
+    color: #414045;
+    overflow-y: scroll;
+    display: none;
+    z-index: 1000;
+    border: 3px solid #414045;
+  }
+  .cart_shop.cart_shop2 {
+    display: block;
+    animation: clip-path-inset-left 0.8s ease;
+  }
+  .cart_shop i {
+    float: right;
+    padding: 12px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  .cart_shop h1 {
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 10px 0;
+    font-size: 2rem;  
+    background-color: #414045;
+
+  }
+  .cart_shop table {
+    width: 100%;
+  }
+  .cart_shop thead  {
+    border-bottom: 1px solid #414045;
+  }
+  .cart_shop thead tr th {
+    font-size: 1.5rem;
+    padding-top: 10px;
+  }
+  .cart_shop table tbody tr {
+    border-bottom: 1px solid #414045;
+  }
+  .cart_shop table tbody tr td {
+    padding: 20px;
+  }
+  .cart_shop table tbody tr td img {
+    margin-right: 5px;
+  }
+  .cart_shop table tbody tr td:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart_shop table tbody tr td:last-child {
+    cursor: pointer;
+  }
+  .cart_shop table tbody tr td input {
+    outline: none;
+    text-align: center;
+    padding: 3px;
+  }
+  .cart_shop .price-total {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 20px 20px 0;
+    border-top: 1px solid white;
+  }
+  .cart_shop .price-total p span {
+    color:red;
+  }
+  .cart_shop .price-total p sup {
+    color:red;
+  }
+  .cart_shop .oder {
+    font-size: 1.7rem;
+    background: #414045;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .cart_shop .oder p{
+    color: white;
+  }
+  
+  
